@@ -1,0 +1,29 @@
+citHeader("Please cite Yang H (2025) for using EnrichDO.")
+
+citEntry(entry  ="ARTICLE",
+         title  = "EnrichDO: a global weighted model for Disease Ontology enrichment analysis",
+         author = c(
+             person("Haixiu", "Yang"),
+             person("Hongyu", "Fu"),
+             person("Meiyi", "Zhang"),
+             person("Yangyang", "Liu"),
+             person("Yongqun", "He"),
+             person("Chao", "Wang"),
+             person("Liang", "Cheng")
+             ),
+         journal = "GigaScience",
+         year    = "2025",
+         volume  = "14",
+         number  = "",
+         pages   = "",
+         PMID    = "40139908",
+         doi     = "10.1093/gigascience/giaf021",
+         textVersion = paste("Yang H, Fu H, Zhang M, Liu Y, He YO, Wang C, Cheng L.",
+                             "EnrichDO: a global weighted model for Disease Ontology enrichment analysis.",
+                             "Gigascience. 2025 Jan 6;14:giaf021. doi: 10.1093/gigascience/giaf021.",
+                             "PMID: 40139908; PMCID: PMC11945307.")
+         )
+
+
+
+

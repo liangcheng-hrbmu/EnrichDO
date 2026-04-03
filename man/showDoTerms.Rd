@@ -16,7 +16,11 @@ text
 show DOterms
 }
 \examples{
-showDoTerms(doterms)
+mock_doterms <- data.frame(
+  DOID = c("DOID:0000001", "DOID:0000002"),
+  DOTerm = c("disease 1", "disease 2")
+)
+showDoTerms(mock_doterms)
 }
 \author{
 Haixiu Yang

@@ -20,8 +20,11 @@ Alzheimer_gene <- Alzheimer$V1
 Alzheimer_EnrichDO <- doEnrich(interestGenes = Alzheimer_gene, test = "hypergeomTest", method = "BH", m = 1, maxGsize = 5000, minGsize = 5,
     traditional = FALSE, delta = 0.01, penalize = T)
 
+# Result Display
+detail_res <- viewDetailResult(Alzheimer_EnrichDO)
+summary_res <- viewSummaryResult(Alzheimer_EnrichDO)
+
 # Enrichment result visualization
-writeDoTerms(doterms, file = file.path(system.file("examples", package = "EnrichDO"), "doterms.txt"))
 writeResult(EnrichResult = Alzheimer_EnrichDO, file = file.path(system.file("examples", package = "EnrichDO"), "result.txt"), Q = 1, P = 1)
 
 pdf(file.path(system.file("examples", package = "EnrichDO"), "BarGraph.pdf"))

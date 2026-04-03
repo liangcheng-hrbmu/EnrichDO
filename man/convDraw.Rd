@@ -16,14 +16,14 @@ DataFrame
 using the result of writeResult for convenience drawing.
 }
 \examples{
-#'#Draw from wrireResult output files
-#Firstly, read the wrireResult output file,using the following two lines
-data <- read.delim(file.path(system.file('examples', package = 'EnrichDO'), 'result.txt'))
+#' #Draw from wrireResult output files
+# Firstly, read the wrireResult output file,using the following two lines
+data <- read.delim(file.path(system.file("examples", package = "EnrichDO"), "result.txt"))
 enrich <- convDraw(resultDO = data)
-#then, Use the drawing function you need
-drawGraphViz(enrich=enrich)    #Tree diagram
-drawPointGraph(enrich=enrich)  #Bubble diagram
-drawBarGraph(enrich=enrich)    #Bar plot
+# then, Use the drawing function you need
+drawGraphViz(enrich = enrich) # Tree diagram
+drawPointGraph(enrich = enrich) # Bubble diagram
+drawBarGraph(enrich = enrich) # Bar plot
 }
 \author{
 Haixiu Yang

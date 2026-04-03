@@ -22,9 +22,9 @@ text
 Output enrichment result as text
 }
 \examples{
-demo.data <- c(1636,351,102,2932,3077,348,4137,54209)
-sample4 <- doEnrich(interestGenes=demo.data,maxGsize = 100, minGsize=10)
-writeResult(EnrichResult=sample4, file=file.path(tempdir(), 'result.txt'))
+demo.data <- c(1636, 351, 102, 2932, 3077, 348, 4137, 54209)
+sample4 <- doEnrich(interestGenes = demo.data, maxGsize = 100, minGsize = 10)
+writeResult(EnrichResult = sample4, file = file.path(tempdir(), "result.txt"))
 }
 \author{
 Haixiu Yang

@@ -11,4 +11,8 @@
 #' @importFrom dplyr %>%
 "_PACKAGE"
 
-utils::globalVariables(c("DOID","parent.arr","gene.len","geneRatio","p","gene.arr","level","DOTerm","cg.len","ig.len","DO","log10p","bgRatio","cg","cg.arr","child.arr","child.len", "children","genes","parent.len", "parents","weight.arr","dotermgenes",".EnrichDOenv","doterms"))
+utils::globalVariables(c(
+  "DOID", "parent.arr", "gene.len", "geneRatio", "p", "gene.arr", "level", "DOTerm", "cg.len",
+  "ig.len", "DO", "log10p", "bgRatio", "cg", "cg.arr", "child.arr", "child.len", "children", "genes", "parent.len",
+  "parents", "weight.arr", "dotermgenes", ".EnrichDOenv", "doterms"
+))

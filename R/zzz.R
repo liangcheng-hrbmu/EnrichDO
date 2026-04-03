@@ -1,5 +1,5 @@
 .onAttach <- function(libname, pkgname) {
-    .initial()
+  .initial()
 }
 .initial <- function() {
   pos <- 1
@@ -19,7 +19,4 @@
 
   .EnrichDOenv$enrich <- NULL
   .EnrichDOenv$doidCount <- NULL
-
 }
-
-

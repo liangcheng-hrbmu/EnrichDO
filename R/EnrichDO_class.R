@@ -18,16 +18,8 @@
 ##' @exportClass EnrichResult
 ##' @author Haixiu Yang
 ##' @keywords classes
-setClass("EnrichResult",
-         representation = representation(
-           enrich = "data.frame",
-           interestGenes = "character",
-           test = "character",
-           method = "character",
-           m = "numeric",
-           maxGsize = "numeric",
-           minGsize = "numeric",
-           delta = "numeric",
-           traditional = "logical",
-           penalize = "logical")
-         )
+setClass("EnrichResult", representation = representation(
+  enrich = "data.frame", interestGenes = "character", test = "character",
+  method = "character", m = "numeric", maxGsize = "numeric", minGsize = "numeric", delta = "numeric", traditional = "logical",
+  penalize = "logical"
+))

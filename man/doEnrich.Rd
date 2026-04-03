@@ -45,14 +45,14 @@ A \code{EnrichResult} instance.
 given an array of human protein-genes with NCBI ENTREZID format, this function combines topological properties of the disease ontology structure for enrichment analysis.
 }
 \examples{
-##Input data case
-#the inputdata_demo variable stores validated protein-coding genes associated with Alzheimer's disease.
-Alzheimer <- read.delim(file.path(system.file('extdata', package='EnrichDO'), 'Alzheimer_curated.csv'), header = FALSE)
-inputdata_demo <- Alzheimer[,1]
-##doEnrich case
-#The enrichment results were obtained by using demo.data
-demo.data <- c(1636,351,102,2932,3077,348,4137,54209)
-demo_result <- doEnrich(interestGenes=demo.data,maxGsize = 100, minGsize=10)
+## Input data case
+# the inputdata_demo variable stores validated protein-coding genes associated with Alzheimer's disease.
+Alzheimer <- read.delim(file.path(system.file("extdata", package = "EnrichDO"), "Alzheimer_curated.csv"), header = FALSE)
+inputdata_demo <- Alzheimer[, 1]
+## doEnrich case
+# The enrichment results were obtained by using demo.data
+demo.data <- c(1636, 351, 102, 2932, 3077, 348, 4137, 54209)
+demo_result <- doEnrich(interestGenes = demo.data, maxGsize = 100, minGsize = 10)
 }
 \author{
 Haixiu Yang

@@ -15,6 +15,11 @@ print info
 \description{
 show method for \code{EnrichResult} instance
 }
+\examples{
+demo.data <- c(1636, 351, 102)
+res <- doEnrich(interestGenes = demo.data, traditional = TRUE)
+show(res)
+}
 \author{
 Haixiu Yang
 }
